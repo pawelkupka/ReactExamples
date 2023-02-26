@@ -1,10 +1,12 @@
 # Fetch
 
-Fetch s³u¿y do komunikacji z API. Mo¿na ró¿ne requesty. Jeœli chce siê zrobiæ POST to trzeba dodaæ w request method POST i dodaæ wysy³an¹ treœæ w body, np.
+Fetch sluzy do komunikacji z API. Mo¿na rozne requesty. Jesli chce sie zrobic POST to trzeba dodac w request method POST i dodac wysy³ana tresd w body, np.
 
+<code>
 fetch("some url", {
 	method: "POST",
 	body: JSON.stringify({ some data })
 })
 .then(response => response.json())
 .then(result => {}, error => {})
+</code>
